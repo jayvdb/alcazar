@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include *.sh
+recursive-include samples *.csv
+recursive-include samples *.gz
+recursive-include samples *.json
+recursive-include samples *.py
+recursive-include samples *.shelf
+recursive-include samples *.txt
+recursive-include specimens *.gz
+recursive-include specimens *.py
+recursive-include specimens *.urls
+recursive-include tests *.html
+recursive-include tests *.json
+recursive-include tests *.py
+recursive-include tests *.xml
+exclude .pylintrc
